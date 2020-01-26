@@ -1,0 +1,51 @@
+body{
+  background-color: #35495e;
+}
+
+.container-header{
+margin: auto;
+text-align: center;
+display: block;
+}
+
+h1{
+  font-family: 'Bangers';
+  text-align: center;
+  color: #94d3ac;
+  font-size: 8rem;
+  line-height: 2em;
+  letter-spacing: 5px;
+  text-shadow:1px 1px 2px #edf7fa;
+}
+
+p{
+  font-family:'Bangers';
+  color: #effcef;
+  font-size: 2rem;
+  margin: 0 3em 0 3em;
+  position: absolute;
+}
+
+footer{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #effcef;
+  margin-top: 10%
+}
+
+.dice{
+  text-align: center;
+  display: inline-flex;
+
+}
+
+/* Images */
+
+.leftDice{
+  margin: 5rem
+}
+
+.rightDice{
+  margin: 5rem;
+
+}
