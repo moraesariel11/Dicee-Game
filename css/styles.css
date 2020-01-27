@@ -26,6 +26,22 @@ p{
   position: absolute;
 }
 
+.roll-btn{
+  font-family: 'Bangers';
+  color: #effcef;
+  font-size: 3rem;
+  background-color: #94d3ac;
+  border: none;
+  padding: 30px 40px;
+  border-radius: 50%;
+  letter-spacing: 5px;
+  line-height: 1em;
+}
+
+.roll-btn:hover{
+  color: #0f4c75;
+}
+
 footer{
   font-family: 'Indie Flower', cursive;
   text-align: center;

@@ -3,30 +3,31 @@
 <head>
     <meta charset="utf-8">
     <title>Dicee Game</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="/index.js">
-
 </head>
-
 <body>
 
   <div class="container-header">
-    <h1>Refresh to Roll!</h1>
+    <h1>Click To Roll!</h1>
 
   <div class="dice">
     <p style="padding-left: 2em;">Player 1</p>
-    <img class="rightDice"src="images/dice6.png" alt="">
+    <img class="rightDice"src="images/dice6.png">
   </div>
 
   <div class="dice">
     <p style="padding-left: 2em;">Player 2</p>
-    <img class="leftDice" src="images/dice6.png" alt="">
+    <img class="leftDice" src="images/dice6.png">
   </div>
 
+  <div class="button-container">
+    <button onclick="roll()" class="roll-btn"> Roll </button>
+
+  </div>
   </div>
 <!-- Javascript -->
   <script src="index.js" charset="utf-8"></script>
